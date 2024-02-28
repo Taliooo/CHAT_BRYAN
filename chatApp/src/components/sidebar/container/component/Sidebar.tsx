@@ -34,7 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
           <div className="cursor-pointer" onClick={toggleSidebar}>
           <Icon icon={menuIcon} className="text-black-500 w-8 h-8" />
           </div>
-          <SidebarTitle title="floakly" className="ml-2" />
+          <SidebarTitle title="floakly" className="bg-white-700 text-green-700 p-4 ml-2" />
         </div>
       </div>
       <div className="mt-4">
