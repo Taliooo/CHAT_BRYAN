@@ -9,7 +9,7 @@ interface SidebarCategoryProps {
 
 const SidebarCategory: React.FC<SidebarCategoryProps> = ({ title, items }) => {
   return (
-    <div className="mb-4 space-y-2 transition duration-300 ease-in-out bg-gray-100">
+    <div className="mb-4 space-y-2 transition duration-300 ease-in-out bg-gray-50">
       <h2 className="text-base font-semibold text-gray-400 mb-2 ml-4 cursor-default">{title}</h2>
       <ul className="space-y-2">
         {items.map((item, index) => (

@@ -28,7 +28,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
   ]
 
   return (
-    <div className={`bg-gray-100 h-full w-64 ${isOpen ? 'translate-x-0' : '-translate-x-64'} fixed top-0 left-0 transition-transform duration-300 ease-in-out md:translate-x-0`}>
+    <div className={`bg-gray-50 h-full w-64 ${isOpen ? 'translate-x-0' : '-translate-x-64'} fixed top-0 left-0 transition-transform duration-300 ease-in-out md:translate-x-0`}>
       <div className="flex items-center justify-between px-4 py-2">
         <div className="flex items-center">
           <div className="cursor-pointer" onClick={toggleSidebar}>
